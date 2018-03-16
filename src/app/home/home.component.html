@@ -16,8 +16,8 @@
     </form>
   </div>
   <div class="col">
-    <p class="life-container">
-      I want to sail across the ocean.
+    <p class="life-container" *ngFor="let goal of goals">
+      {{ goal }}
     </p>
   </div>
 </div>
