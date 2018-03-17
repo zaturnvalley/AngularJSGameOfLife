@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   itemCount: number;
   btnText: string = 'Add an item';
   goalText: string = 'My first life goal';
-  goals = [];
+  goals = ['My goals:'];
 
   constructor() { }
 
