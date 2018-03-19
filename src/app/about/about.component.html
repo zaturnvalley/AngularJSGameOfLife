@@ -1,3 +1,16 @@
-<p>
-  This is a basic Angular 5 application to show that I have built a rull Angular 5 app with routing. Click <a href="" title="here" (click)="sendMeHome()"><strong>here</strong></a> to go home.
-</p>
+<div class="container color-dark">
+  <div class="col">
+    <p class="sm">
+    This is a basic Angular 5 application to show that I have built a rull Angular 5 app with routing. Click <a href="" title="here" (click)="sendMeHome()"><strong>here</strong></a> to go home.
+    </p>
+  </div>
+</div>
+<div class="conainer color-light">
+  <div class="col">
+    <ul class="sm">
+      <li *ngFor="let goal of goals">
+        {{goal}}
+      </li>
+    </ul>
+  </div>
+</div>
